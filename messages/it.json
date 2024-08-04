@@ -1,0 +1,55 @@
+{
+	"Home": {
+		"title": "Benvenuto su NotJira"
+	},
+	"Dashboard": {
+		"Home": "Home",
+		"Projects": "Progetti",
+		"Teams": "Squadre",
+		"Settings": "Impostazioni",
+		"Logout": "Disconnettersi",
+		"Greetings": "Ciao,"
+	},
+	"Teams": {
+		"Title": "Squadre",
+		"FirstName": "Nome",
+		"LastName": "Cognome",
+		"Team": "Squadra",
+		"Role": "Ruolo",
+		"OnProjects": "Progetti in corso",
+		"EndProjects": "Progetti completati"
+	},
+	"Settings": {
+		"Accessibility": "Accessibilità",
+		"AccessibilityDescription": "Hai bisogno di aiuto? Controlla le caratteristiche WCAG.",
+		"ComingSoon": "Prossimamente...",
+		"CustomizeTheme": "Personalizza il tema",
+		"CustomizeThemeDescription": "Scegli tra chiaro, scuro o abyss.",
+		"Customize": "Personalizzare",
+		"SelectLanguage": "Seleziona una lingua",
+		"SelectLanguageDescription": "Disponibile in 5 lingue.",
+		"Select": "Selezionare",
+		"RestartWorkspace": "Riavvia spazio di lavoro",
+		"RestartWorkspaceDescription": "Cancella tutti i tuoi dati, impostazioni e ricomincia da capo.",
+		"Restart": "Riavviare",
+		"Notifications": "Notifiche",
+		"NotificationsDescription": "Gestisci la posizione e lo stile delle tue notifiche.",
+		"Manage": "Gestire",
+		"Lang": "Seleziona una lingua",
+		"Theme": "Cambia tema",
+		"LightDescription": "La modalità chiara è il tema predefinito.",
+		"DarkDescription": "La modalità scura è gradevole per gli occhi.",
+		"AbyssDescription": "Per chi ama il rosa.",
+		"Spanish": "Spagnolo",
+		"English": "Inglese",
+		"French": "Francese",
+		"Italian": "Italiano",
+		"Japanese": "Giapponese",
+		"Notification": "Gestisci le notifiche",
+		"Topleft": "Inaltoasinistra",
+		"Topright": "Inaltoadestra",
+		"Bottomleft": "Inbassoasinistra",
+		"Bottomright": "Inbassoadestra",
+		"Position": "La posizione è stata cambiata e salvata"
+	}
+}

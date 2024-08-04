@@ -1,0 +1,55 @@
+{
+	"Home": {
+		"title": "NotJiraへようこそ"
+	},
+	"Dashboard": {
+		"Home": "ホーム",
+		"Projects": "プロジェクト",
+		"Teams": "チーム",
+		"Settings": "設定",
+		"Logout": "ログアウト",
+		"Greetings": "こんにちは、"
+	},
+	"Teams": {
+		"Title": "チーム",
+		"FirstName": "名",
+		"LastName": "姓",
+		"Team": "チーム",
+		"Role": "役割",
+		"OnProjects": "進行中のプロジェクト",
+		"EndProjects": "完了したプロジェクト"
+	},
+	"Settings": {
+		"Accessibility": "アクセシビリティ",
+		"AccessibilityDescription": "助けが必要ですか？ WCAGの機能を確認してください。",
+		"ComingSoon": "近日公開...",
+		"CustomizeTheme": "テーマをカスタマイズ",
+		"CustomizeThemeDescription": "ライト、ダーク、またはアビスから選択。",
+		"Customize": "カスタマイズ",
+		"SelectLanguage": "言語を選択",
+		"SelectLanguageDescription": "5つの言語で利用可能。",
+		"Select": "選択",
+		"RestartWorkspace": "ワークスペースを再起動",
+		"RestartWorkspaceDescription": "すべてのデータと設定をクリアして、最初からやり直します。",
+		"Restart": "再起動",
+		"Notifications": "通知",
+		"NotificationsDescription": "通知の位置とスタイルを管理します。",
+		"Manage": "管理",
+		"Lang": "言語を選択",
+		"Theme": "テーマを切り替える",
+		"LightDescription": "ライトモードはデフォルトのテーマです。",
+		"DarkDescription": "ダークモードは目に優しいです。",
+		"AbyssDescription": "ピンクが好きな方のために。",
+		"Spanish": "スペイン語",
+		"English": "英語",
+		"French": "フランス語",
+		"Italian": "イタリア語",
+		"Japanese": "日本語",
+		"Notification": "通知を処理する",
+		"Topleft": "左上",
+		"Topright": "右上",
+		"Bottomleft": "左下",
+		"Bottomright": "右下",
+		"Position": "位置が変更され、保存されました"
+	}
+}

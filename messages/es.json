@@ -1,0 +1,55 @@
+{
+	"Home": {
+		"title": "Bienvenido a NotJira"
+	},
+	"Dashboard": {
+		"Home": "Inicio",
+		"Projects": "Proyectos",
+		"Teams": "Equipos",
+		"Settings": "Configuración",
+		"Logout": "Cerrar sesión",
+		"Greetings": "Hola,"
+	},
+	"Teams": {
+		"Title": "Equipos",
+		"FirstName": "Nombre",
+		"LastName": "Apellido",
+		"Team": "Equipo",
+		"Role": "Rol",
+		"OnProjects": "Proyectos en curso",
+		"EndProjects": "Proyectos completados"
+	},
+	"Settings":	{
+		"Accessibility": "Accesibilidad",
+		"AccessibilityDescription": "¿Necesitas ayuda? Consulta las características de WCAG.",
+		"ComingSoon": "Próximamente...",
+		"CustomizeTheme": "Personaliza el tema",
+		"CustomizeThemeDescription": "Elige entre claro, oscuro o abyss.",
+		"Customize": "Personalizar",
+		"SelectLanguage": "Selecciona un idioma",
+		"SelectLanguageDescription": "Disponible en 5 idiomas.",
+		"Select": "Seleccionar",
+		"RestartWorkspace": "Reiniciar espacio de trabajo",
+		"RestartWorkspaceDescription": "Borra todos tus datos, configuraciones y comienza de nuevo.",
+		"Restart": "Reiniciar",
+		"Notifications": "Notificaciones",
+		"NotificationsDescription": "Gestiona la posición y el estilo de tus notificaciones.",
+		"Manage": "Gestionar",
+		"Lang": "Selecciona un idioma",
+		"Theme": "Cambiar tema",
+		"LightDescription": "El modo light es el tema predeterminado.",
+		"DarkDescription": "El modo oscuro es agradable a la vista.",
+		"AbyssDescription": "Para aquellos que aman el rosa.",
+		"Spanish": "Español",
+		"English": "Inglés",
+		"French": "Francés",
+		"Italian": "Italiano",
+		"Japanese": "Japonés",
+		"Notification": "Ajustes de notificaciones",
+		"Topleft": "Arriba a la izquierda",
+		"Topright": "Arriba a la derecha",
+		"Bottomleft": "Abajo a la izquierda",
+		"Bottomright": "Abajo a la derecha",
+		"Position": "La posición ha sido cambiada y guardada"
+	}
+}

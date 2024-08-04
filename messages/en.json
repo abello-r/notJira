@@ -1,0 +1,55 @@
+{
+	"Home": {
+		"title": "Welcome to NotJira"
+	},
+	"Dashboard": {
+		"Home": "Home",
+		"Projects": "Projects",
+		"Teams": "Teams",
+		"Settings": "Settings",
+		"Logout": "Logout",
+		"Greetings": "Hello,"
+	},
+	"Teams": {
+		"Title": "Teams",
+		"FirstName": "First Name",
+		"LastName": "Last Name",
+		"Team": "Team",
+		"Role": "Role",
+		"OnProjects": "On Doing Projects",
+		"EndProjects": "Completed Projects"
+	},
+	"Settings": {
+		"Accessibility": "Accessibility",
+		"AccessibilityDescription": "Need help? Check the WCAG features.",
+		"ComingSoon": "Coming soon...",
+		"CustomizeTheme": "Customize the theme",
+		"CustomizeThemeDescription": "Choose between light, dark, or abyss.",
+		"Customize": "Customize",
+		"SelectLanguage": "Select a language",
+		"SelectLanguageDescription": "Available in 5 languages.",
+		"Select": "Select",
+		"RestartWorkspace": "Restart Workspace",
+		"RestartWorkspaceDescription": "Clear all your data, settings, and start fresh.",
+		"Restart": "Restart",
+		"Notifications": "Notifications",
+		"NotificationsDescription": "Manage the position and style of your notifications.",
+		"Manage": "Manage",
+		"Lang": "Select a language",
+		"Theme": "Switch Theme",
+		"LightDescription": "Light mode is the default theme.",
+		"DarkDescription": "Dark mode is easy on the eyes.",
+		"AbyssDescription": "For those who love the pink.",
+		"Spanish": "Spanish",
+		"English": "English",
+		"French": "French",
+		"Italian": "Italian",
+		"Japanese": "Japanese",
+		"Notification": "Handle Notifications",
+		"Topleft": "Top left",
+		"Topright": "Top right",
+		"Bottomleft": "Bottom left",
+		"Bottomright": "Bottom right",
+		"Position": "The position has been changed and saved"
+	}
+}

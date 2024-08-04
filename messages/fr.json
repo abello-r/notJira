@@ -1,0 +1,55 @@
+{
+	"Home": {
+		"title": "Bienvenue sur NotJira"
+	},
+	"Dashboard": {
+		"Home": "Accueil",
+		"Projects": "Projets",
+		"Teams": "Équipes",
+		"Settings": "Paramètres",
+		"Logout": "Déconnexion",
+		"Greetings": "Bonjour,"
+	},
+	"Teams": {
+		"Title": "Équipes",
+		"FirstName": "Prénom",
+		"LastName": "Nom de famille",
+		"Team": "Équipe",
+		"Role": "Rôle",
+		"OnProjects": "Projets en cours",
+		"EndProjects": "Projets terminés"
+	},
+	"Settings": {
+		"Accessibility": "Accessibilité",
+		"AccessibilityDescription": "Besoin d'aide? Consultez les fonctionnalités WCAG.",
+		"ComingSoon": "Bientôt disponible...",
+		"CustomizeTheme": "Personnaliser le thème",
+		"CustomizeThemeDescription": "Choisissez entre clair, sombre ou abyss.",
+		"Customize": "Personnaliser",
+		"SelectLanguage": "Sélectionnez une langue",
+		"SelectLanguageDescription": "Disponible en 5 langues.",
+		"Select": "Sélectionner",
+		"RestartWorkspace": "Redémarrer l'espace de travail",
+		"RestartWorkspaceDescription": "Effacez toutes vos données, paramètres et recommencez.",
+		"Restart": "Redémarrer",
+		"Notifications": "Notifications",
+		"NotificationsDescription": "Gérez la position et le style de vos notifications.",
+		"Manage": "Gérer",
+		"Lang": "Sélectionnez une langue",
+		"Theme": "Changer de thème",
+		"LightDescription": "Le mode clair est le thème par défaut.",
+  		"DarkDescription": "Le mode sombre est agréable pour les yeux.",
+  		"AbyssDescription": "Pour ceux qui aiment le rose.",
+		"Spanish": "Espagnol",
+		"English": "Anglais",
+		"French": "Français",
+		"Italian": "Italien",
+		"Japanese": "Japonais",
+		"Notification": "Gérer les notifications",
+		"Topleft": "Enhautàgauche",
+    	"Topright": "Enhautàdroite",
+    	"Bottomleft": "Enbasàgauche",
+    	"Bottomright": "Enbasàdroite",
+		"Position": "La position a été changée et enregistrée"
+	}
+}
