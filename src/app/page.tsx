@@ -38,7 +38,7 @@ export default function Home() {
 								alt="Development" 
 								width={0} 
 								height={0}
-								className="w-[90%] h-[90%] pt-8"
+								className="w-full h-full pt-8"
 							 />
 						</span>
 					</div>
@@ -49,9 +49,9 @@ export default function Home() {
 							<Image 
 								src="/png/marketing.png" 
 								alt="Marketing" 
-								width={0} 
-								height={0} 
-								className="w-[90%] h-[90%] pt-8 pl-4 rotate-12"
+								width={100} 
+								height={100} 
+								className="w-full h-full pt-8 pl-4 rotate-12"
 							/>
 						</span>
 					</div>
