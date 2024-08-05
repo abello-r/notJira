@@ -93,7 +93,7 @@ export default function Settings() {
 		<>
 			<div className={styles.outerContainer}>
 				<div className={styles.container} id="features">
-					<BentoGrid className="lg:grid-rows-3 overflow-scroll p-4 w-[90%]">
+					<BentoGrid className="lg:grid-rows-3 overflow-scroll p-4">
 						{features.map((feature) => (
 							<BentoCard key={feature.name} {...feature} />
 						))}
