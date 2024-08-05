@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 interface LangSwitcherProps {
 	translations: {
@@ -49,7 +50,7 @@ const LanguageSwitcher = ({ translations }: LangSwitcherProps) => {
 							className={`w-full h-full rounded-xl shadow-md flex items-center justify-center p-4 lightBox hover:bg-black/[.03] hover:dark:bg-neutral-800/10`}
 							onClick={() => handleLanguageChange(lang)}
 						>
-							<img src={`/svg/${lang}.svg`} alt={lang} width={40} height={40} />
+							<Image src={`/svg/${lang}.svg`} alt={lang} width={40} height={40} />
 							<p className={`text-lg font-medium mt-2`}>
 								{languageNames[lang]}
 							</p>

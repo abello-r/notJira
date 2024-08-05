@@ -26,7 +26,7 @@ export default function Settings() {
 			description: t('AccessibilityDescription'),
 			href: "#",
 			cta: t('ComingSoon'),
-			background: <img className="absolute -right-20 -top-20 opacity-60" />,
+			background: <div className="absolute -right-20 -top-20 opacity-60" />,
 			className: "lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-3",
 		},
 		{
@@ -35,7 +35,7 @@ export default function Settings() {
 			description: t('CustomizeThemeDescription'),
 			href: "#customizeTheme",
 			cta: t('Customize'),
-			background: <img className="absolute -right-20 -top-20 opacity-60" />,
+			background: <div className="absolute -right-20 -top-20 opacity-60" />,
 			className: "lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3",
 		},
 		{
@@ -44,7 +44,7 @@ export default function Settings() {
 			description: t('SelectLanguageDescription'),
 			href: "#selectLang",
 			cta: t('Select'),
-			background: <img className="absolute -right-20 -top-20 opacity-60" />,
+			background: <div className="absolute -right-20 -top-20 opacity-60" />,
 			className: "lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4",
 		},
 		{
@@ -53,7 +53,7 @@ export default function Settings() {
 			description: t('RestartWorkspaceDescription'),
 			href: "#",
 			cta: t('Restart'),
-			background: <img className="absolute -right-20 -top-20 opacity-60" />,
+			background: <div className="absolute -right-20 -top-20 opacity-60" />,
 			className: "lg:col-start-3 lg:col-end-3 lg:row-start-1 lg:row-end-2",
 		},
 		{
@@ -62,7 +62,7 @@ export default function Settings() {
 			description: t('NotificationsDescription'),
 			href: "#manageNotification",
 			cta: t('Manage'),
-			background: <img className="absolute -right-20 -top-20 opacity-60" />,
+			background: <div className="absolute -right-20 -top-20 opacity-60" />,
 			className: "lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-4",
 		},
 	];

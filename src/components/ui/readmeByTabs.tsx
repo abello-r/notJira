@@ -102,7 +102,7 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 							<p className='text-lg text flex flex-col justify-normal items-left w-[95%]'>
 								{translations.InstallationContent}
 								<code
-									className='text-lg text homeBox w-[50%] mt-4'
+									className='text-lg text homeBox w-[50%] mt-4 rounded-[8px]'
 									onClick={() => handleCopy('git clone https://github.com/abello-r/notJira')}
 								>
 									git clone https://github.com/abello-r/notJira
@@ -115,7 +115,7 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 							<p className='text-lg text flex flex-col justify-normal items-left w-[95%]'>
 								{translations.DependenciesContent}
 								<code
-									className='text-lg text homeBox w-[15%] mt-4'
+									className='text-lg text homeBox w-[15%] mt-4 rounded-[8px]'
 									onClick={() => handleCopy('npm install')}
 								>
 									npm install
@@ -142,7 +142,7 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 							<p className='text-lg text flex flex-col justify-normal items-left w-[95%]'>
 								{translations.BulkContent}
 								<code
-									className='text-lg text homeBox w-[15%] mt-4'
+									className='text-lg text homeBox w-[15%] mt-4 rounded-[8px]'
 									onClick={() => handleCopy('npm run bulk')}
 								>
 									npm run bulk
@@ -155,7 +155,7 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 							<p className='text-lg text flex flex-col justify-normal items-left w-[95%]'>
 								{translations.RunContent}
 								<code
-									className='text-lg text homeBox w-[15%] mt-4'
+									className='text-lg text homeBox w-[15%] mt-4 rounded-[8px]'
 									onClick={() => handleCopy('npm run dev')}
 								>
 									npm run dev
@@ -171,7 +171,7 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 							<span className='flex flex-row gap-2'>
 
 								<a href='https://github.com/abello-r' target='_blank' rel='noopener noreferrer' className='w-[20%]'>
-									<button className='homeBox'>
+									<button className='homeBox rounded-[8px]'>
 										<span className='flex flex-row gap-2'>
 											{translations.GithubButton}
 											<ArrowLongRightIcon className='h-6 w-6 color-white' />
@@ -180,7 +180,7 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 								</a>
 
 								<a href='https://profile-guard.netlify.app/' target='_blank' rel='noopener noreferrer' className='w-[25%]'>
-									<button className='homeBox'>
+									<button className='homeBox rounded-[8px]'>
 										<span className='flex flex-row gap-2'>
 											{translations.WebButton}
 											<ArrowLongRightIcon className='h-6 w-6' />
@@ -272,7 +272,7 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 							<h2 className='text-2xl font-bold text-left'>{translations.Dependencies}</h2>
 							<p className='text-lg text w-[95%]'>
 								{translations.DependenciesTabDetailsContent}
-								<ul className="pl-12 space-y-4 text-gray-800 mt-8">
+								<ul className="pl-12 space-y-4 text-gray-800 mt-8 text">
 									<li className="font-semibold text-lg">
 										{translations.CategoryOne}
 										<ul className="list-disc pl-6 mt-2 space-y-2 font-normal">

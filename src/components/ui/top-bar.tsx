@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 // Styles:
 import { UserCircleIcon } from '@heroicons/react/24/outline';
@@ -31,7 +32,7 @@ export default function TopBar({ translations }: topBarProps) {
 		<>
 			<div className={styles.topBar}>
 				<section className="flex items-center justify-between py-2 w-2/3">
-					<img src="/svg/logo-no-background.svg" alt="Logo" className="w-44 h-auto" id="logo" />
+					<Image src="/svg/logo-no-background.svg" alt="Logo" className="w-44 h-auto" id="logo" width={176} height={40} />
 				</section>
 				<section className="flex items-center justify-end py-2 w-1/3">
 					{isLoading ? (

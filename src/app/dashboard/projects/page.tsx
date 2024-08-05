@@ -12,6 +12,7 @@ import NumberTicker from "@/components/magicui/number-ticker";
 import { Button } from "@/components/ui/button";
 import BoxReveal from "@/components/magicui/box-reveal";
 import DoughnutGraph from '@/components/ui/doughnut-graph';
+import Image from 'next/image'
 
 // Fetching and caching:
 import useFetch from '@/app/hooks/useFetch';
@@ -113,7 +114,7 @@ export default function Projects() {
 				</div>
 
 				<div className="h-full w-[20%] items-center justify-center">
-					<img src="/svg/notnot.svg" alt="NotJira Logo" className="w-[100%] h-[100%] mt-8 rotate-[12deg] select-none" id="logo" />
+					<Image src="/svg/notnot.svg" alt="NotJira Logo" className="w-[100%] h-[100%] mt-8 rotate-[12deg] select-none" id="logo" width={100} height={100} />
 				</div>
 			</section> { /* End of projectInnerTopContainer */}
 

@@ -2,14 +2,14 @@ import { File, Folder, Tree } from "@/components/magicui/file-tree";
 
 export function ArchFileTree() {
 	return (
-		<div className="relative flex h-[300px] w-1/2 flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
+		<div className="relative flex h-[300px] w-1/2 flex-col items-center justify-center overflow-hidden border bg-background md:shadow-xl rounded-[8px]">
 			<Tree
 				className="p-2 overflow-hidden rounded-md bg-background"
 				initialSelectedId="7"
 				initialExpandedItems={[
 					"1",
-					"10",
-					"11"
+					"4",
+					"5"
 				]}
 				elements={ELEMENTS}
 			>
@@ -19,29 +19,29 @@ export function ArchFileTree() {
 
 					</Folder>
 
-					<Folder value="9" element="components">
+					<Folder value="3" element="components">
 						
 					</Folder>
 
-					<Folder value="10" element="domain">
-						<Folder value="11" element="models">
-							<File value="12">
+					<Folder value="4" element="domain">
+						<Folder value="5" element="models">
+							<File value="6">
 								<p>project.ts</p>
 							</File>
-							<File value="13">
+							<File value="7">
 								<p>user.ts</p>
 							</File>
 						</Folder>
 					</Folder>
 
-					<Folder value="14" element="lib">
+					<Folder value="8" element="lib">
 
 					</Folder>
 
-					<File value="18">
+					<File value="9">
 						<p>i18n.ts</p>
 					</File>
-					<File value="19">
+					<File value="10">
 						<p>middleware.ts</p>
 					</File>
 				</Folder>
@@ -62,27 +62,27 @@ const ELEMENTS = [
 				name: "app",
 			},
 			{
-				id: "9",
+				id: "3",
 				isSelectable: false,
 				name: "components",
 			},
 			{
-				id: "10",
+				id: "4",
 				isSelectable: true,
 				name: "domain",
 				children: [
 					{
-						id: "11",
+						id: "5",
 						isSelectable: true,
 						name: "models",
 						children: [
 							{
-								id: "12",
+								id: "6",
 								isSelectable: true,
 								name: "project.ts",
 							},
 							{
-								id: "13",
+								id: "7",
 								isSelectable: true,
 								name: "user.ts",
 							},
@@ -91,34 +91,17 @@ const ELEMENTS = [
 				],
 			},
 			{
-				id: "14",
+				id: "8",
 				isSelectable: true,
 				name: "lib",
-				children: [
-					{
-						id: "15",
-						isSelectable: true,
-						name: "fetcher.ts",
-					},
-					{
-						id: "16",
-						isSelectable: true,
-						name: "mongodb.ts",
-					},
-					{
-						id: "17",
-						isSelectable: true,
-						name: "utils.ts",
-					},
-				],
 			},
 			{
-				id: "18",
+				id: "9",
 				isSelectable: true,
 				name: "i18n.ts",
 			},
 			{
-				id: "19",
+				id: "10",
 				isSelectable: true,
 				name: "middleware.ts",
 			},
