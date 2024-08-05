@@ -41,7 +41,15 @@
 		"Layout": "Layout",
 		"LayoutContent": "Il layout dell'applicazione si trova nella cartella ",
 		"LayoutContent2": " e contiene i componenti che definiscono la struttura dell'applicazione. Questi componenti sono utilizzati in diverse parti dell'applicazione e aiutano a mantenere la coerenza visiva. Un altro esempio si trova nella cartella ",
-		"LayoutContent3": ", questo layout utilizza NavLink per una navigazione più veloce ed efficiente nella barra laterale dell'applicazione."
+		"LayoutContent3": ", questo layout utilizza NavLink per una navigazione più veloce ed efficiente nella barra laterale dell'applicazione.",
+		"DependenciesTabDetailsContent": "Per lo sviluppo di questa applicazione sono state utilizzate le seguenti dipendenze organizzate per categorie:",
+		"CategoryOne": "Database, autenticazione e Fetching",
+		"CategoryTwo": "Librerie e Strumenti di Design",
+		"CategoryThree": "Frameworks di Testing",
+		"Themes": "Temi e teoria del colore",
+		"ThemesContent": "Ci sono 3 temi nell'applicazione: uno predefinito e due aggiuntivi. I colori dell'applicazione seguono la teoria del colore e la psicologia del colore. Mi sono avvalso di diversi strumenti per la scelta dei colori, come Adobe Color e Coolors.",
+		"Branding": "Branding e Tipografia",
+		"BrandingContent": "Il branding dell'applicazione è stato creato con Logo.com e Canva. È stato creato un brand con i colori scelti in precedenza e una tipografia simile a quella di Jira. Puoi trovare il brand completo in un file .zip all'interno della cartella /public."
 	},
 	"Dashboard": {
 		"Home": "Home",

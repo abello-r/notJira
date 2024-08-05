@@ -41,7 +41,15 @@
 		"Layout": "Layout",
 		"LayoutContent": "The application's layout is located in the folder ",
 		"LayoutContent2": " and contains the components that define the application's structure. These components are used in different parts of the application and help maintain visual consistency. Another example is found in the folder ",
-		"LayoutContent3": ", this layout uses NavLink for faster and more efficient navigation in the application's sideBar."
+		"LayoutContent3": ", this layout uses NavLink for faster and more efficient navigation in the application's sideBar.",
+		"DependenciesTabDetailsContent": "For the development of this application, the following dependencies organized by categories have been used:",
+		"CategoryOne": "Database, authentication, and Fetching",
+		"CategoryTwo": "Libraries and Design Tools",
+		"CategoryThree": "Testing Frameworks",
+		"Themes": "Themes and color theory",
+		"ThemesContent": "There are 3 themes in the application: one default and two additional. The application colors follow color theory and color psychology. I have relied on various tools for color selection, such as Adobe Color and Coolors.",
+		"Branding": "Branding and Typography",
+		"BrandingContent": "The application's branding was created with Logo.com and Canva. A brand has been created with the previously chosen colors and a font similar to Jira. You can find the complete brand in a .zip file within the /public folder."
 	},
 	"Dashboard": {
 		"Home": "Home",

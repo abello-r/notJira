@@ -57,6 +57,16 @@ export default function Dashboard() {
 		"LayoutContent": t('LayoutContent'),
 		"LayoutContent2": t('LayoutContent2'),
 		"LayoutContent3": t('LayoutContent3'),
+
+		// Tab details:
+		"DependenciesTabDetailsContent": t('DependenciesTabDetailsContent'),
+		"CategoryOne": t('CategoryOne'),
+		"CategoryTwo": t('CategoryTwo'),
+		"CategoryThree": t('CategoryThree'),
+		"Themes": t('Themes'),
+		"ThemesContent": t('ThemesContent'),
+		"Branding": t('Branding'),
+		"BrandingContent": t('BrandingContent'),
 	};
 
 	return (

@@ -41,7 +41,15 @@
 		"Layout": "Mise en page",
 		"LayoutContent": "La mise en page de l'application se trouve dans le dossier ",
 		"LayoutContent2": " et contient les composants qui définissent la structure de l'application. Ces composants sont utilisés dans différentes parties de l'application et aident à maintenir la cohérence visuelle. Un autre exemple se trouve dans le dossier ",
-		"LayoutContent3": ", cette mise en page utilise NavLink pour une navigation plus rapide et plus efficace dans la barre latérale de l'application."
+		"LayoutContent3": ", cette mise en page utilise NavLink pour une navigation plus rapide et plus efficace dans la barre latérale de l'application.",
+		"DependenciesTabDetailsContent": "Pour le développement de cette application, les dépendances suivantes organisées par catégories ont été utilisées :",
+		"CategoryOne": "Base de données, authentification et Fetching",
+		"CategoryTwo": "Bibliothèques et Outils de Conception",
+		"CategoryThree": "Frameworks de Test",
+		"Themes": "Thèmes et théorie des couleurs",
+		"ThemesContent": "Il y a 3 thèmes dans l'application : un thème par défaut et deux supplémentaires. Les couleurs de l'application suivent la théorie des couleurs et la psychologie des couleurs. Je me suis appuyé sur divers outils pour la sélection des couleurs, tels qu'Adobe Color et Coolors.",
+		"Branding": "Branding et typographie",
+		"BrandingContent": "Le branding de l'application a été réalisé avec Logo.com et Canva. Une marque a été créée avec les couleurs choisies préalablement et une typographie similaire à celle de Jira. Vous pouvez trouver la marque complète dans un fichier .zip situé dans le dossier /public."
 	},
 	"Dashboard": {
 		"Home": "Accueil",

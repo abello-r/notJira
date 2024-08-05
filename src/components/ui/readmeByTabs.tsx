@@ -266,7 +266,57 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 				</CustomTabPanel>
 
 				<CustomTabPanel value={value} index={2}>
-					Item Three
+					<div className='flex flex-col items-left text-left gap-8'>
+					
+						<section className='flex flex-col items-left text-left gap-4'> { /* Dependencies */}
+							<h2 className='text-2xl font-bold text-left'>{translations.Dependencies}</h2>
+							<p className='text-lg text w-[95%]'>
+								{translations.DependenciesTabDetailsContent}
+								<ul className="pl-12 space-y-4 text-gray-800 mt-8">
+									<li className="font-semibold text-lg">
+										{translations.CategoryOne}
+										<ul className="list-disc pl-6 mt-2 space-y-2 font-normal">
+											<li>NextAuth.js</li>
+											<li>Mongoose</li>
+											<li>SWR</li>
+										</ul>
+									</li>
+									<li className="font-semibold text-lg">
+										{translations.CategoryTwo}
+										<ul className="list-disc pl-6 mt-2 space-y-2 font-normal">
+											<li>Heroicons</li>
+											<li>Material-UI</li>
+											<li>Sonner</li>
+											<li>Chart.js</li>
+											<li>TailwindCSS</li>
+										</ul>
+									</li>
+									<li className="font-semibold text-lg">
+										{translations.CategoryThree}
+										<ul className="list-disc pl-6 mt-2 space-y-2 font-normal">
+											<li>Jest</li>
+											<li>Cypress</li>
+										</ul>
+									</li>
+								</ul>
+							</p>
+						</section>
+
+						<section className='flex flex-col items-left text-left gap-4'> { /* Themes */}
+							<h2 className='text-2xl font-bold text-left'>{translations.Themes}</h2>
+							<p className='text-lg text w-[95%]'>
+								{translations.ThemesContent}
+							</p>
+						</section>
+
+						<section className='flex flex-col items-left text-left gap-4'> { /* Branding */}
+							<h2 className='text-2xl font-bold text-left'>{translations.Branding}</h2>
+							<p className='text-lg text w-[95%]'>
+								{translations.BrandingContent}
+							</p>
+						</section>
+
+					</div>
 				</CustomTabPanel>
 			</Box>
 		</>
