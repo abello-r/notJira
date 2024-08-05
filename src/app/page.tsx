@@ -61,12 +61,9 @@ export default function Home() {
 						<span className="w-full flex flex-col items-start justify-start">
 							<h2 className="pb-4 text font-bold">Diseño</h2>
 							<p className="text-neutral-600 font-light items-start justify-start text-left">Crear flujos de trabajos creativos.</p>
-							<Image
+							<img
 								src="/png/design.png"
 								alt="Design"
-								width={100}
-								height={100}
-								quality={100}
 								className="w-full h-full pt-8 pl-4"
 							/>
 						</span>
@@ -75,12 +72,9 @@ export default function Home() {
 						<span className="w-full flex flex-col items-start justify-start">
 							<h2 className="pb-4 text font-bold">Operaciones</h2>
 							<p className="text-neutral-600 font-light items-start justify-start text-left">Crear procesos personalizados.</p>
-							<Image 
+							<img
 								src="/png/operations.png" 
 								alt="Operations" 
-								width={100} 
-								height={100}
-								quality={100}
 								className="w-full h-full pt-8 pl-4 skew-x-12" 
 							/>
 						</span>
