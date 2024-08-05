@@ -1,6 +1,26 @@
 {
 	"Home": {
-		"title": "Bienvenue sur NotJira"
+		"title": "Bienvenue sur NotJira",
+		"Toast": "Texte copié dans le presse-papiers",
+		"Tab1": "Pour commencer",
+		"Tab2": "Architecture",
+		"Tab3": "Plus de détails",
+		"Overview": "Introduction",
+		"OverviewContent": "L'objectif de ce projet est de développer une application qui répond aux exigences spécifiées dans le document PDF fourni. Comme une description détaillée de l'application n'était pas incluse, j'ai choisi de créer une version clone du Jira Software d'Atlassian. Cette approche a été choisie en raison des nombreuses fonctionnalités offertes par Jira, qui sont étroitement alignées avec les fonctionnalités requises dans le document.",
+		"Installation": "Installation",
+		"InstallationContent": "Le projet est hébergé sur GitHub et peut être cloné avec la commande suivante :",
+		"Dependencies": "Dépendances",
+		"DependenciesContent": "Pour télécharger les dépendances nécessaires, exécutez la commande suivante à la racine du projet :",
+		"Environment": "Configuration de l'environnement",
+		"EnvironmentContent": "Le projet nécessite un fichier .env à la racine du projet avec les variables d'environnement suivantes :",
+		"Bulk": "Importation de données",
+		"BulkContent": "L'application comprend un script dans /scripts/bulk-insert.ts qui permet de charger des données de test dans la base de données. Vous pouvez exécuter le script avec la commande suivante :",
+		"Run": "Exécution",
+		"RunContent": "Enfin, pour exécuter l'application en mode développement, exécutez la commande suivante :",
+		"Support": "Support",
+		"SupportContent": "Si vous rencontrez des problèmes ou avez des questions, n'hésitez pas à ouvrir un problème sur le dépôt GitHub. Si vous souhaitez me contacter ou voir des projets similaires, vous pouvez visiter mon site web.",
+		"GithubButton": "Voir sur GitHub",
+		"WebButton": "Visiter le site web"
 	},
 	"Dashboard": {
 		"Home": "Accueil",
@@ -59,8 +79,8 @@
 		"Lang": "Sélectionnez une langue",
 		"Theme": "Changer de thème",
 		"LightDescription": "Le mode clair est le thème par défaut.",
-  		"DarkDescription": "Le mode sombre est agréable pour les yeux.",
-  		"AbyssDescription": "Pour ceux qui aiment le rose.",
+		"DarkDescription": "Le mode sombre est agréable pour les yeux.",
+		"AbyssDescription": "Pour ceux qui aiment le rose.",
 		"Spanish": "Espagnol",
 		"English": "Anglais",
 		"French": "Français",
@@ -68,9 +88,9 @@
 		"Japanese": "Japonais",
 		"Notification": "Gérer les notifications",
 		"Topleft": "Enhautàgauche",
-    	"Topright": "Enhautàdroite",
-    	"Bottomleft": "Enbasàgauche",
-    	"Bottomright": "Enbasàdroite",
+		"Topright": "Enhautàdroite",
+		"Bottomleft": "Enbasàgauche",
+		"Bottomright": "Enbasàdroite",
 		"Position": "La position a été changée et enregistrée"
 	}
 }

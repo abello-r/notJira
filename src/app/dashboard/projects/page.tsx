@@ -32,7 +32,7 @@ export default function Projects() {
 	const t = useTranslations('Projects');
 
 	const { data, error } = useFetch<ProjectsStats>('/api/secure/projects/stats');
-	if (error) return <p>Error loading projects statistics...</p>;
+	if (error) return <p>Error: 503 Failed to fetch</p>;
 
 	const onDoingProjects = data?.pendingProjects || 0;
 	const completedProjects = data?.completedProjects || 0;

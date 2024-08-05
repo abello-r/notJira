@@ -44,7 +44,7 @@ export default function Teams() {
 	};
 
 	const { data, error } = useFetch<User[]>('/api/secure/users');
-	if (error) { return <div>Failed to fetch teams</div> }
+	if (error) return <p>Error: 503 Failed to fetch</p>;
 
 	return (
 		<div className={`flex flex-col justify-start items-center ${styles.outerContainer}`}>
@@ -58,7 +58,7 @@ export default function Teams() {
 			<section className={styles.innerBottomContainer}>
 				<DataTable users={data} translations={dataTableTranslations} />
 				<span className="w-full h-100% flex justify-center items-center flex-row gap-8">
-					{/* TO DO: Add some graphs or stats? */}
+					{/* TO DO?: Add some graphs or stats? */}
 				</span>
 			</section>
 		</div>

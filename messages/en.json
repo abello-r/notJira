@@ -1,6 +1,26 @@
 {
 	"Home": {
-		"title": "Welcome to NotJira"
+		"title": "Welcome to NotJira",
+		"Toast": "Text copied to clipboard",
+		"Tab1": "Getting Started",
+		"Tab2": "Architecture",
+		"Tab3": "More Details",
+		"Overview": "Introduction",
+		"OverviewContent": "The aim of this project is to develop an application that meets the requirements specified in the provided PDF document. Since a detailed description of how the application should be was not included, I chose to create a clone version of Atlassian's Jira Software. This approach was chosen due to the multiple features Jira offers, which closely align with the functionalities required in the document.",
+		"Installation": "Installation",
+		"InstallationContent": "The project is hosted on GitHub and can be cloned with the following command:",
+		"Dependencies": "Dependencies",
+		"DependenciesContent": "To download the necessary dependencies, run the following command at the root of the project:",
+		"Environment": "Environment Setup",
+		"EnvironmentContent": "The project requires an .env file at the root of the project with the following environment variables:",
+		"Bulk": "Data Import",
+		"BulkContent": "The application includes a script at /scripts/bulk-insert.ts that allows you to load test data into the database. You can run the script with the following command:",
+		"Run": "Run",
+		"RunContent": "Finally, to run the application in development mode, execute the following command:",
+		"Support": "Support",
+		"SupportContent": "If you encounter any issues or have any questions, feel free to open an issue on the GitHub repository. If you wish to contact me or view similar projects, you can visit my website.",
+		"GithubButton": "View on GitHub",
+		"WebButton": "Visit Website"
 	},
 	"Dashboard": {
 		"Home": "Home",
@@ -30,7 +50,6 @@
 		"Pcr": "Project completion rate",
 		"Pcompleted": "Completed Projects",
 		"Pongoing": "Ongoing Projects"
-
 	},
 	"Teams": {
 		"Title": "Teams",

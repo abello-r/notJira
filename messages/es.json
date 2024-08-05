@@ -1,6 +1,26 @@
 {
 	"Home": {
-		"title": "Bienvenido a NotJira"
+		"title": "Bienvenido a NotJira",
+		"Toast": "Texto copiado al portapapeles",
+		"Tab1": "Para empezar",
+		"Tab2": "Arquitectura",
+		"Tab3": "Más detalles",
+		"Overview": "Introducción",
+		"OverviewContent": "El objetivo de este proyecto es desarrollar una aplicación que satisfaga los requisitos especificados en el documento PDF proporcionado. Dado que no se incluía una descripción detallada de cómo debía ser la aplicación, opté por crear una versión clon de Jira Software de Atlassian. Este enfoque se eligió debido a las múltiples funcionalidades que ofrece Jira y que se alinean estrechamente con las funcionalidades requeridas en el documento.",
+		"Installation": "Instalación",
+		"InstallationContent": "El proyecto se encuentra alojado en GitHub y se puede clonar con el siguiente comando:",
+		"Dependencies": "Dependencias",
+		"DependenciesContent": "Para descargar las dependencias necesarias, ejecute el siguiente comando en la raíz del proyecto:",
+		"Environment": "Configuración de entorno",
+		"EnvironmentContent": "El proyecto requiere de un archivo .env en la raíz del proyecto con las siguientes variables de entorno:",
+		"Bulk": "Carga de datos",
+		"BulkContent": "La aplicación incluye un script en la ruta /scripts/bulk-insert.ts que permite cargar datos de prueba en la base de datos. Puede ejecutar el script con el siguiente comando:",
+		"Run": "Ejecución",
+		"RunContent": "Finalmente, para ejecutar la aplicación en modo desarrollo, ejecute el siguiente comando:",
+		"Support": "Soporte",
+		"SupportContent": "Si encuentra algún problema o tiene alguna pregunta, no dude en abrir un issue en el repositorio de GitHub. En caso de que desee contactarme o ver proyectos similares, puede visitar mi sitio web.",
+		"GithubButton": "Ver en GitHub",
+		"WebButton": "Visitar Sitio Web"
 	},
 	"Dashboard": {
 		"Home": "Inicio",
@@ -40,7 +60,7 @@
 		"OnProjects": "Proyectos en curso",
 		"EndProjects": "Proyectos completados"
 	},
-	"Settings":	{
+	"Settings": {
 		"Accessibility": "Accesibilidad",
 		"AccessibilityDescription": "¿Necesitas ayuda? Consulta las características de WCAG.",
 		"ComingSoon": "Próximamente...",

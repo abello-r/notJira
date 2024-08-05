@@ -1,6 +1,26 @@
 {
 	"Home": {
-		"title": "Benvenuto su NotJira"
+		"title": "Benvenuto su NotJira",
+		"Toast": "Testo copiato negli appunti",
+		"Tab1": "Per iniziare",
+		"Tab2": "Architettura",
+		"Tab3": "Magiori dettagli",
+		"Overview": "Introduzione",
+		"OverviewContent": "L'obiettivo di questo progetto è sviluppare un'applicazione che soddisfi i requisiti specificati nel documento PDF fornito. Poiché non era inclusa una descrizione dettagliata di come dovesse essere l'applicazione, ho scelto di creare una versione clone del Jira Software di Atlassian. Questo approccio è stato scelto a causa delle numerose funzionalità che Jira offre e che si allineano strettamente con le funzionalità richieste nel documento.",
+		"Installation": "Installazione",
+		"InstallationContent": "Il progetto è ospitato su GitHub e può essere clonato con il seguente comando:",
+		"Dependencies": "Dipendenze",
+		"DependenciesContent": "Per scaricare le dipendenze necessarie, eseguire il seguente comando nella radice del progetto:",
+		"Environment": "Configurazione dell'ambiente",
+		"EnvironmentContent": "Il progetto richiede un file .env nella radice del progetto con le seguenti variabili di ambiente:",
+		"Bulk": "Importazione dati",
+		"BulkContent": "L'applicazione include uno script in /scripts/bulk-insert.ts che permette di caricare dati di prova nel database. È possibile eseguire lo script con il seguente comando:",
+		"Run": "Esecuzione",
+		"RunContent": "Infine, per eseguire l'applicazione in modalità sviluppo, eseguire il seguente comando:",
+		"Support": "Supporto",
+		"SupportContent": "Se riscontri problemi o hai domande, non esitare ad aprire un problema nel repository GitHub. Se desideri contattarmi o visualizzare progetti simili, puoi visitare il mio sito web.",
+		"GithubButton": "Visualizza su GitHub",
+		"WebButton": "Visita il sito web"
 	},
 	"Dashboard": {
 		"Home": "Home",
