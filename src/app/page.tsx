@@ -6,7 +6,6 @@ import { signIn } from "next-auth/react";
 // UI Components:
 import GradualSpacing from "@/components/magicui/gradual-spacing";
 import TopBar from '@/components/ui/top-bar';
-import Image from 'next/image';
 
 export default function Home() {
 	return (
@@ -33,12 +32,9 @@ export default function Home() {
 						<span className="w-full flex flex-col items-start justify-start">
 							<h2 className="pb-4 text font-bold">Desarrollo de software</h2>
 							<p className="text-neutral-600 font-light items-start justify-start text-left">Seguimiento de productos e incidencias.</p>
-							<Image 
+							<img
 								src="/png/software.png" 
-								alt="Development" 
-								width={100} 
-								height={100}
-								quality={100}
+								alt="Development"
 								className="w-full h-full pt-8"
 							 />
 						</span>
@@ -47,12 +43,9 @@ export default function Home() {
 						<span className="w-full flex flex-col items-start justify-start">
 							<h2 className="pb-4 text font-bold">Marketing</h2>
 							<p className="text-neutral-600 font-light items-start justify-start text-left">Planificar y lanzar campañas.</p>
-							<Image 
+							<img
 								src="/png/marketing.png" 
 								alt="Marketing" 
-								width={100} 
-								height={100} 
-								quality={100}
 								className="w-full h-full pt-8 pl-4 rotate-12"
 							/>
 						</span>
