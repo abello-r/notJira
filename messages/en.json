@@ -10,6 +10,20 @@
 		"Logout": "Logout",
 		"Greetings": "Hello,"
 	},
+	"Projects": {
+		"Title": "Unlock all the magic of NotJira",
+		"Subtitle": "More stats, graphs, and insights for",
+		"SubtitleColorVariant": "your projects",
+		"Feature1": "Wide range of",
+		"Feature1ColorVariant": "project management tools",
+		"Feature2": "Advanced",
+		"Feature2ColorVariant": "analytics and insights",
+		"Feature3": "More",
+		"Feature3ColorVariant": "customization options",
+		"Premium": "Upgrade Now",
+		"OnProjects": "On Doing Projects",
+		"EndProjects": "Completed Projects"
+	},
 	"Teams": {
 		"Title": "Teams",
 		"FirstName": "First Name",

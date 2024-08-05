@@ -1,5 +1,11 @@
 import { NextResponse } from 'next/server';
 
+
+/*
+	Example request:
+	POST /api/lang -> sets the locale cookie
+*/
+
 export async function POST(request: Request) {
 	try {
 		const { locale } = await request.json();

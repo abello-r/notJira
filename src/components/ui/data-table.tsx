@@ -38,6 +38,7 @@ export default function DataTable({ users, translations }: DataTableProps) {
 				sx={{ color: 'var(--color-text)' }}
 				rows={users || []}
 				columns={columns}
+				pageSizeOptions={[10]}
 				initialState={{
 					pagination: {
 						paginationModel: { page: 0, pageSize: 10 },

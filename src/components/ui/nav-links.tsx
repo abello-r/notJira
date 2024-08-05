@@ -26,8 +26,8 @@ export default function NavLinks({ translations }: NavLinksProps) {
 	const pathname = usePathname();
 	const links = [
 		{ name: translations.Home, href: "/dashboard", icon: HomeIcon },
-		{ name: translations.Projects, href: "/dashboard/projects", icon: FolderIcon },
 		{ name: translations.Teams, href: "/dashboard/teams", icon: UsersIcon },
+		{ name: translations.Projects, href: "/dashboard/projects", icon: FolderIcon },
 		{ name: translations.Settings, href: "/dashboard/settings#features", icon: Cog6ToothIcon },
 	];
 	return (

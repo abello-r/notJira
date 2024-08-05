@@ -87,3 +87,24 @@
 	width: 100%;
 	padding: 0.5rem 2rem;
 }
+
+.projectInnerTopContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	width: 100%;
+	height: 40vh;
+	padding: 0 2rem 2rem;
+	border-bottom: 1px solid #e1e4e8;
+}
+
+.projectInnerBottomContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row-reverse;
+	width: 100%;
+	height: 60vh;
+	padding: 0 2rem;
+}

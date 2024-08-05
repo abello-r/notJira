@@ -10,6 +10,20 @@
 		"Logout": "ログアウト",
 		"Greetings": "こんにちは、"
 	},
+	"Projects": {
+		"Title": "NotJiraのすべての魔法を解放する",
+		"Subtitle": "より多くの統計、グラフ、洞察を",
+		"SubtitleColorVariant": "あなたのプロジェクトに",
+		"Feature1": "幅広い",
+		"Feature1ColorVariant": "プロジェクト管理ツール",
+		"Feature2": "高度な",
+		"Feature2ColorVariant": "分析と洞察",
+		"Feature3": "もっと多くの",
+		"Feature3ColorVariant": "カスタマイズオプション",
+		"Premium": "今すぐアップグレード",
+		"OnProjects": "進行中のプロジェクト",
+		"EndProjects": "完了したプロジェクト"
+	},
 	"Teams": {
 		"Title": "チーム",
 		"FirstName": "名",

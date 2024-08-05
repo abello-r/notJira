@@ -22,6 +22,10 @@ html {
     --bg-color: white;
     --scroll-color: #0052cc #111111;
 	--filter-logo: 0;
+	--graph-color-1: #0052cc;
+	--graph-color-2: #ff6e96;
+	--graph-color-3: #ffaa00;
+	--graph-color-4: #00b8d9;
 }
 
 html.light {
@@ -35,6 +39,10 @@ html.light {
     --bg-color: white;
     --scroll-color: #0052cc #111111;
 	--filter-logo: 0;
+	--graph-color-1: #0052cc;
+    --graph-color-2: #ededed;
+    --graph-color-3: #00ff9d;
+    --graph-color-4: #00b8d9;
 }
 
 html.dark {
@@ -48,6 +56,10 @@ html.dark {
     --bg-color: #111111;
     --scroll-color: #e1e4e8 #111111;
 	--filter-logo: 0;
+	--graph-color-1: #0052cc;
+    --graph-color-2: #ededed;
+    --graph-color-3: #00ff9d;
+    --graph-color-4: #00b8d9;
 }
 
 html.abyss {
@@ -61,6 +73,10 @@ html.abyss {
     --bg-color: #7a7a7a;
     --scroll-color: #ff6e96 #111111;
 	--filter-logo: grayscale(100%) brightness(100%) contrast(100%);
+	--graph-color-1: #ff6e96;
+    --graph-color-2: #81f5fd;
+    --graph-color-3: #fdff84;
+    --graph-color-4: #00b8d9;
 }
 
 body {

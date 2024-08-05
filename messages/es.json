@@ -10,6 +10,20 @@
 		"Logout": "Cerrar sesión",
 		"Greetings": "Hola,"
 	},
+	"Projects": {
+		"Title": "Obtén NotJira Premium",
+		"Subtitle": "Más estadísticas, gráficos y analíticas para",
+		"SubtitleColorVariant": "tus proyectos",
+		"Feature1": "Amplia gama de",
+		"Feature1ColorVariant": "herramientas de gestión de proyectos",
+		"Feature2": "Avanzado",
+		"Feature2ColorVariant": "análisis y estadísticas",
+		"Feature3": "Más",
+		"Feature3ColorVariant": "opciones de personalización",
+		"Premium": "Actualiza Ahora",
+		"OnProjects": "Proyectos Activos",
+		"EndProjects": "Proyectos Terminados"
+	},
 	"Teams": {
 		"Title": "Equipos",
 		"FirstName": "Nombre",

@@ -1,4 +1,7 @@
+// Translations:
 import { useTranslations } from 'next-intl';
+
+// UI Components:
 import {
 	LanguageIcon,
 	SparklesIcon,
@@ -7,10 +10,12 @@ import {
 	BellAlertIcon,
 } from '@heroicons/react/24/outline';
 import { BentoCard, BentoGrid } from "@/components/magicui/bento-grid";
-import styles from "@/app/dashboard/dashboard.module.css";
 import ThemeSwitcher from "@/components/ui/theme-switcher";
 import LangSwitcher from "@/components/ui/lang-switcher";
 import NotifySwitcher from "@/components/ui/notify-switcher";
+
+// Styles:
+import styles from "@/app/dashboard/dashboard.module.css";
 
 export default function Settings() {
 	const t = useTranslations('Settings');

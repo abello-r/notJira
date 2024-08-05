@@ -6,6 +6,14 @@ if (!process.env.GITHUB_ID || !process.env.GITHUB_SECRET) {
 	throw new Error("Missing GITHUB_ID or GITHUB_SECRET environment variables");
 }
 
+/*
+	Example request:
+	GET /api/auth -> returns all available providers
+	GET /api/auth/signin/github -> redirects to GitHub for authentication
+	GET /api/auth/callback/github -> handles the callback from GitHub
+	GET /api/auth/signout -> signs out the user
+*/
+
 export const authOptions: NextAuthOptions = {
 	providers: [
 		GithubProvider({

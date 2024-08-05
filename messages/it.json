@@ -10,6 +10,20 @@
 		"Logout": "Disconnettersi",
 		"Greetings": "Ciao,"
 	},
+	"Projects": {
+		"Title": "Sblocca tutta la magia di NotJira",
+		"Subtitle": "Più statistiche, grafici e approfondimenti per",
+		"SubtitleColorVariant": "i tuoi progetti",
+		"Feature1": "Ampia gamma di",
+		"Feature1ColorVariant": "strumenti di gestione progetti",
+		"Feature2": "Avanzato",
+		"Feature2ColorVariant": "analisi e approfondimenti",
+		"Feature3": "Maggiore",
+		"Feature3ColorVariant": "opzioni di personalizzazione",
+		"Premium": "Aggiorna Ora",
+		"OnProjects": "Progetti Attivi",
+		"EndProjects": "Progetti Completati"
+	},
 	"Teams": {
 		"Title": "Squadre",
 		"FirstName": "Nome",

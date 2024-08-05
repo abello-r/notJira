@@ -11,8 +11,7 @@ import AvatarCircles from "@/components/magicui/avatar-circles";
 import styles from "@/app/dashboard/dashboard.module.css";
 
 // Fetching and caching:
-import useSWR from 'swr';
-import { fetcher } from '@/lib/fetcher';
+import useFetch from '@/app/hooks/useFetch';
 
 interface User {
 	id: number;
@@ -44,17 +43,15 @@ export default function Teams() {
 		EndProjects: t('EndProjects'),
 	};
 
-	const { data, error } = useSWR<User[]>('/api/secure/users', fetcher);
-	if (error) {
-		return <div>Failed to fetch teams</div>;
-	}
+	const { data, error } = useFetch<User[]>('/api/secure/users');
+	if (error) { return <div>Failed to fetch teams</div> }
 
 	return (
 		<div className={`flex flex-col justify-start items-center ${styles.outerContainer}`}>
 			<section className={styles.innerTopContainer}>
 				<h1 className="text-4xl font-bold">{t('Title')}</h1>
 				<AvatarCircles
-					numPeople={99}
+					numPeople={996}
 					avatarUrls={avatarUrls}
 				/>
 			</section>
