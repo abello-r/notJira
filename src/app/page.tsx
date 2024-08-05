@@ -66,6 +66,7 @@ export default function Home() {
 								alt="Design"
 								width={100}
 								height={100}
+								quality={100}
 								className="w-full h-full pt-8 pl-4"
 							/>
 						</span>
@@ -79,6 +80,7 @@ export default function Home() {
 								alt="Operations" 
 								width={100} 
 								height={100}
+								quality={100}
 								className="w-full h-full pt-8 pl-4 skew-x-12" 
 							/>
 						</span>
