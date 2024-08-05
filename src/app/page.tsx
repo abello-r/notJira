@@ -39,7 +39,6 @@ export default function Home() {
 								width={0} 
 								height={0}
 								className="w-[90%] h-[90%] pt-8"
-								quality={100}
 							 />
 						</span>
 					</div>
@@ -53,7 +52,6 @@ export default function Home() {
 								width={0} 
 								height={0} 
 								className="w-[90%] h-[90%] pt-8 pl-4 rotate-12"
-								quality={100}
 							/>
 						</span>
 					</div>
@@ -67,7 +65,6 @@ export default function Home() {
 								width={0}
 								height={0}
 								className="w-[90%] h-[90%] pt-8 pl-4"
-								quality={100}
 							/>
 						</span>
 					</div>
@@ -81,7 +78,6 @@ export default function Home() {
 								width={0} 
 								height={0}
 								className="w-[90%] h-[90%] pt-8 pl-4 skew-x-12" 
-								quality={100}
 							/>
 						</span>
 					</div>
