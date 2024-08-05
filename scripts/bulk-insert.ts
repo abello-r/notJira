@@ -2,8 +2,8 @@ import 'dotenv/config';
 import mongoose from "mongoose";
 import { faker } from '@faker-js/faker';
 import { connectDB } from '../src/lib/mongodb';
-import User from '../src/app/models/user';
-import Project from '../src/app/models/project';
+import User from '../src/domain/models/user';
+import Project from '../src/domain/models/project';
 
 const NUMBER_OF_DOCUMENTS = 1000; // Define here the number of documents to insert
 

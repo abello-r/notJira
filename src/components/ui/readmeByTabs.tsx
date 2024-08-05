@@ -9,6 +9,7 @@ import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import { Toaster, toast } from 'sonner';
 import { ArrowLongRightIcon } from '@heroicons/react/24/outline';
+import { ArchFileTree } from '@/components/ui/architecture-tree';
 
 type ToastPosition = 'top-left' | 'top-center' | 'top-right' | 'bottom-left' | 'bottom-center' | 'bottom-right';
 
@@ -195,8 +196,75 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 				</CustomTabPanel>
 
 				<CustomTabPanel value={value} index={1}>
-					Item Two
+					<div className='flex flex-col items-left text-left gap-8'>
+
+						<section className='flex flex-col items-left text-left gap-4'> { /* Architecture */}
+							<h2 className='text-2xl font-bold text-left'>{translations.Explanation}</h2>
+							<p className='text-lg text flex justify-normal items-center w-[95%]'>
+								{translations.ExplanationContent}
+							</p>
+						</section>
+
+						<section className='flex flex-col items-left text-left gap-4'> { /* Architecture */}
+							<h2 className='text-2xl font-bold text-left'>{translations.Modules}</h2>
+							<p className='text-lg text flex justify-normal items-center w-[95%]'>
+								{translations.ModulesContent}
+							</p>
+							<span className='flex flex-row gap-2 w-[50%]'>
+								<ArchFileTree />
+							</span>
+						</section>
+
+						<section className='flex flex-col items-left text-left gap-4'> { /* App Router */}
+							<h2 className='text-2xl font-bold text-left'>{translations.AppRouter}</h2>
+							<p className='text-lg text w-[95%]'>
+								{translations.AppRouterContent}<b>src/app/api & src/middleware.ts</b>.
+							</p>
+						</section>
+
+						<section className='flex flex-col items-left text-left gap-4'> { /* Context */}
+							<h2 className='text-2xl font-bold text-left'>{translations.ContextAndProviders}</h2>
+							<p className='text-lg text w-[95%]'>
+								{translations.ContextAndProvidersContent} <b>src/app/context & src/i18nt.ts</b>.
+							</p>
+						</section>
+
+						<section className='flex flex-col items-left text-left gap-4'> { /* Components */}
+							<h2 className='text-2xl font-bold text-left'>{translations.Components}</h2>
+							<p className='text-lg text w-[95%]'>
+								{translations.ComponentsContent}<b>src/components</b>{translations.ComponentsContent2}
+							</p>
+						</section>
+
+						<section className='flex flex-col items-left text-left gap-4'> { /* Domain */}
+							<h2 className='text-2xl font-bold text-left'>{translations.Domain}</h2>
+							<p className='text-lg text w-[95%]'>
+								{translations.DomainContent}<b>src/domain</b>{translations.DomainContent2}
+							</p>
+						</section>
+
+						<section className='flex flex-col items-left text-left gap-4'> { /* Lib */}
+							<h2 className='text-2xl font-bold text-left'>{translations.Lib}</h2>
+							<p className='text-lg text w-[95%]'>
+								{translations.LibContent}<b>src/lib</b>{translations.LibContent2}
+							</p>
+						</section>
+
+						<section className='flex flex-col items-left text-left gap-4'> { /* Layout */}
+							<h2 className='text-2xl font-bold text-left'>{translations.Layout}</h2>
+							<p className='text-lg text w-[95%]'>
+								{translations.LayoutContent}
+								<b>src/app/layout</b>
+								{translations.LayoutContent2}
+								<b>src/app/dashboard</b>
+								{translations.LayoutContent3}
+							</p>
+						</section>
+
+					</div>
+
 				</CustomTabPanel>
+
 				<CustomTabPanel value={value} index={2}>
 					Item Three
 				</CustomTabPanel>

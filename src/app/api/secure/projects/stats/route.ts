@@ -1,6 +1,6 @@
 import { NextResponse, NextRequest } from 'next/server';
 import { connectDB } from '@/lib/mongodb';
-import Project from '@/app/models/project';
+import Project from '@/domain/models/project';
 
 interface ProjectFilter {
 	status?: string;

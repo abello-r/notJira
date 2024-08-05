@@ -10,10 +10,14 @@ import { useTranslations } from 'next-intl';
 export default function Dashboard() {
 	const t = useTranslations('Home');
 	const homeTranslations = {
+
+		// Tabs:
 		"Toast": t('Toast'),
 		"Tab1": t('Tab1'),
 		"Tab2": t('Tab2'),
 		"Tab3": t('Tab3'),
+
+		// Tab Overview:
 		"Overview": t('Overview'),
 		"OverviewContent": t('OverviewContent'),
 		"Installation": t('Installation'),
@@ -30,6 +34,29 @@ export default function Dashboard() {
 		"SupportContent": t('SupportContent'),
 		"GithubButton": t('GithubButton'),
 		"WebButton": t('WebButton'),
+
+		// Tab Architecture:
+		"Explanation": t('Explanation'),
+		"ExplanationContent": t('ExplanationContent'),
+		"Modules": t('Modules'),
+		"ModulesContent": t('ModulesContent'),
+		"AppRouter": t('AppRouter'),
+		"AppRouterContent": t('AppRouterContent'),
+		"ContextAndProviders": t('ContextAndProviders'),
+		"ContextAndProvidersContent": t('ContextAndProvidersContent'),
+		"Components": t('Components'),
+		"ComponentsContent": t('ComponentsContent'),
+		"ComponentsContent2": t('ComponentsContent2'),
+		"Domain": t('Domain'),
+		"DomainContent": t('DomainContent'),
+		"DomainContent2": t('DomainContent'),
+		"Lib": t('Lib'),
+		"LibContent": t('LibContent'),
+		"LibContent2": t('LibContent2'),
+		"Layout": t('Layout'),
+		"LayoutContent": t('LayoutContent'),
+		"LayoutContent2": t('LayoutContent2'),
+		"LayoutContent3": t('LayoutContent3'),
 	};
 
 	return (
