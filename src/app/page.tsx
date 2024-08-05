@@ -36,8 +36,9 @@ export default function Home() {
 							<Image 
 								src="/png/software.png" 
 								alt="Development" 
-								width={0} 
-								height={0}
+								width={100} 
+								height={100}
+								quality={100}
 								className="w-full h-full pt-8"
 							 />
 						</span>
@@ -51,6 +52,7 @@ export default function Home() {
 								alt="Marketing" 
 								width={100} 
 								height={100} 
+								quality={100}
 								className="w-full h-full pt-8 pl-4 rotate-12"
 							/>
 						</span>
@@ -62,9 +64,9 @@ export default function Home() {
 							<Image
 								src="/png/design.png"
 								alt="Design"
-								width={0}
-								height={0}
-								className="w-[90%] h-[90%] pt-8 pl-4"
+								width={100}
+								height={100}
+								className="w-full h-full pt-8 pl-4"
 							/>
 						</span>
 					</div>
@@ -75,9 +77,9 @@ export default function Home() {
 							<Image 
 								src="/png/operations.png" 
 								alt="Operations" 
-								width={0} 
-								height={0}
-								className="w-[90%] h-[90%] pt-8 pl-4 skew-x-12" 
+								width={100} 
+								height={100}
+								className="w-full h-full pt-8 pl-4 skew-x-12" 
 							/>
 						</span>
 					</div>
