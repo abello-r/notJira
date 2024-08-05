@@ -32,7 +32,14 @@ export default function TopBar({ translations }: topBarProps) {
 		<>
 			<div className={styles.topBar}>
 				<section className="flex items-center justify-between py-2 w-2/3">
-					<Image src="/svg/logo-no-background.svg" alt="Logo" className="w-44 h-auto" id="logo" width={176} height={40} />
+					<Image 
+						src="/svg/logo-no-background.svg" 
+						alt="Logo" 
+						id="logo" 
+						width={0} 
+						height={0}
+						className="w-44 h-auto" 
+					/>
 				</section>
 				<section className="flex items-center justify-end py-2 w-1/3">
 					{isLoading ? (

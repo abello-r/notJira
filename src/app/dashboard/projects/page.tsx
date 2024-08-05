@@ -33,11 +33,13 @@ export default function Projects() {
 	const t = useTranslations('Projects');
 
 	const { data, error } = useFetch<ProjectsStats>('/api/secure/projects/stats');
-	if (error) return <p>Error: 503 Failed to fetch</p>;
-
+	const completionRates = useProjectCompletionRate(data?.stats || {});
 	const onDoingProjects = data?.pendingProjects || 0;
 	const completedProjects = data?.completedProjects || 0;
-	const completionRates = useProjectCompletionRate(data?.stats || {});
+
+	if (error) {
+		return <p>Error: 503 Failed to fetch</p>
+	}
 
 	const doughnutGraphData = {
 		ProjectCompletationRatePerTeam: completionRates,
@@ -114,7 +116,14 @@ export default function Projects() {
 				</div>
 
 				<div className="h-full w-[20%] items-center justify-center">
-					<Image src="/svg/notnot.svg" alt="NotJira Logo" className="w-[100%] h-[100%] mt-8 rotate-[12deg] select-none" id="logo" width={100} height={100} />
+					<Image 
+						src="/svg/notnot.svg" 
+						alt="NotJira Logo" 
+						id="logo" 
+						width={0} 
+						height={0}
+						className="w-[100%] h-[100%] mt-8 rotate-[12deg] select-none" 
+					/>
 				</div>
 			</section> { /* End of projectInnerTopContainer */}
 

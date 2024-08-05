@@ -14,14 +14,11 @@ interface ProjectFilter {
 	GET /api/secure/projects/stats?status=[Completed | Pending] -> returns statistics filtered by status.
 */
 
-export async function GET(request: NextRequest) {
+export async function GET() {
 	try {
 		await connectDB();
-		const url = new URL(request.url);
-		const queryParams = url.searchParams;
-		const areaFilter = queryParams.get('area');
 
-		const filters: ProjectFilter = areaFilter ? { area: areaFilter } : {};
+		const filters: ProjectFilter = {};
 		const totalProjects = await Project.countDocuments(filters);
 		const pendingProjects = await Project.countDocuments({ ...filters, status: 'Pending' });
 		const completedProjects = await Project.countDocuments({ ...filters, status: 'Completed' });

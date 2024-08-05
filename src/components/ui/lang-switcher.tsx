@@ -50,7 +50,13 @@ const LanguageSwitcher = ({ translations }: LangSwitcherProps) => {
 							className={`w-full h-full rounded-xl shadow-md flex items-center justify-center p-4 lightBox hover:bg-black/[.03] hover:dark:bg-neutral-800/10`}
 							onClick={() => handleLanguageChange(lang)}
 						>
-							<Image src={`/svg/${lang}.svg`} alt={lang} width={40} height={40} />
+							<Image 
+								src={`/svg/${lang}.svg`} 
+								alt={lang} 
+								width={0} 
+								height={0}
+								className='w-10 h-10'
+							/>
 							<p className={`text-lg font-medium mt-2`}>
 								{languageNames[lang]}
 							</p>
