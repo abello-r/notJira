@@ -3,11 +3,7 @@ import styles from "@/app/dashboard/dashboard.module.css";
 
 interface SideBarProps {
 	translations: {
-		Home: string;
-		Projects: string;
-		Teams: string;
-		Settings: string;
-		Logout: string;
+		[key: string]: string;
 	};
 }
 

@@ -11,11 +11,7 @@ import {
 
 interface notifySwitcherProps {
 	translations: {
-		Topleft: string;
-		Topright: string;
-		Bottomleft: string;
-		Bottomright: string;
-		Position: string;
+		[key: string]: string;
 	};
 }
 

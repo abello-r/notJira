@@ -11,7 +11,7 @@ import { signIn, useSession } from "next-auth/react";
 
 interface topBarProps {
 	translations?: {
-		Greetings: string;
+		[key: string]: string;
 	};
 }
 

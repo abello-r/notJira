@@ -14,11 +14,7 @@ import {
 
 interface NavLinksProps {
 	translations: {
-		Home: string;
-		Projects: string;
-		Teams: string;
-		Settings: string;
-		Logout: string;
+		[key: string]: string;
 	};
 }
 

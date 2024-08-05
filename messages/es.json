@@ -22,7 +22,14 @@
 		"Feature3ColorVariant": "opciones de personalización",
 		"Premium": "Actualiza Ahora",
 		"OnProjects": "Proyectos Activos",
-		"EndProjects": "Proyectos Terminados"
+		"EndProjects": "Proyectos Terminados",
+		"Marketing": "Marketing",
+		"Development": "Desarrollo",
+		"Design": "Diseño",
+		"Operations": "Soporte",
+		"Pcr": "Tasa de finalización de proyectos",
+		"Pcompleted": "Proyectos Completados",
+		"Pongoing": "Proyectos en curso"
 	},
 	"Teams": {
 		"Title": "Equipos",

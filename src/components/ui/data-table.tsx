@@ -13,12 +13,7 @@ interface User {
 interface DataTableProps {
 	users?: User[];
 	translations: {
-		FirstName: string;
-		LastName: string;
-		Team: string;
-		Role: string;
-		OnProjects: string;
-		EndProjects: string;
+		[key: string]: string;
 	};
 }
 

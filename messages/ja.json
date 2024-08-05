@@ -22,7 +22,14 @@
 		"Feature3ColorVariant": "カスタマイズオプション",
 		"Premium": "今すぐアップグレード",
 		"OnProjects": "進行中のプロジェクト",
-		"EndProjects": "完了したプロジェクト"
+		"EndProjects": "完了したプロジェクト",
+		"Marketing": "マーケティング",
+		"Development": "開発",
+		"Design": "デザイン",
+		"Operations": "運用",
+		"Pcr": "プロジェクト完了率",
+		"Pcompleted": "完了したプロジェクト",
+		"Pongoing": "進行中のプロジェクト"
 	},
 	"Teams": {
 		"Title": "チーム",

@@ -16,30 +16,45 @@ interface ChartData {
 	}[];
 }
 
-export default function DoughnutGraph() {
+interface DoughnutGraphProps {
+	translations: {
+		[key: string]: string;
+	};
+	data: {
+		[key: string]: number;
+	};
+}
+
+export default function DoughnutGraph({ translations, data }: DoughnutGraphProps) {
 	const [chartData, setChartData] = useState<ChartData | null>(null);
 
 	useEffect(() => {
-		const data = {
-			labels: ['Marketing', 'Development', 'Design', 'Operations'],
+		const backgroundColors = [
+			getCssVariableValue('--graph-color-1'),
+			getCssVariableValue('--graph-color-2'),
+			getCssVariableValue('--graph-color-3'),
+			getCssVariableValue('--graph-color-4')
+		];
+
+		const labels = Object.keys(translations).map(key => translations[key]);
+		const datasetData = Object.keys(data).map(key => data[key]);
+
+		const chartData = {
+			labels,
 			datasets: [
 				{
 					borderColor: '#2D2D2D',
-					label: '# of Votes',
-					data: [12, 19, 3, 5],
-					backgroundColor: [
-						getCssVariableValue('--graph-color-1'),
-						getCssVariableValue('--graph-color-2'),
-						getCssVariableValue('--graph-color-3'),
-						getCssVariableValue('--graph-color-4'),
-					],
+					label: '# of Projects',
+					data: datasetData,
+					backgroundColor: backgroundColors,
 					borderWidth: 1,
 					hoverOffset: 4
 				}
 			]
 		};
-		setChartData(data);
-	}, []);
+
+		setChartData(chartData);
+	}, [translations, data]);
 
 	function getCssVariableValue(variable: string) {
 		return getComputedStyle(document.documentElement).getPropertyValue(variable).trim();
@@ -47,7 +62,7 @@ export default function DoughnutGraph() {
 
 	Chart.register(ArcElement, CategoryScale, LinearScale, Tooltip, Legend, ChartDataLabels);
 	Chart.defaults.font.size = 14;
-	Chart.defaults.color = getCssVariableValue('--bg-color');
+	Chart.defaults.color = '#2D2D2D';
 
 	return (
 		<div>
@@ -56,7 +71,7 @@ export default function DoughnutGraph() {
 					data={chartData}
 					options={{
 						cutout: '50%',
-						radius: '60%',
+						radius: '80%',
 						plugins: {
 							legend: {
 								display: true,
@@ -67,11 +82,11 @@ export default function DoughnutGraph() {
 									boxWidth: 20,
 									padding: 20,
 									usePointStyle: true,
-								font: {
-									size: 14
+									font: {
+										size: 14
+									}
 								}
 							}
-						},
 						},
 						animation: {
 							duration: 2000,

@@ -5,9 +5,7 @@ import { SunIcon, MoonIcon, StarIcon } from '@heroicons/react/24/outline';
 
 interface ThemeSwitcherProps {
 	translations: {
-		LightDescription: string;
-		DarkDescription: string;
-		AbyssDescription: string;
+		[key: string]: string;
 	};
 }
 
