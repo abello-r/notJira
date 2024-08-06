@@ -68,38 +68,38 @@ export default function Projects() {
 		<div className={`flex flex-col justify-start items-center ${styles.outerContainer}`}>
 
 			<section className={styles.projectInnerTopContainer}>
-				<div className="h-full w-[80%] items-center justify-center overflow-hidden pt-8">
+				<div className="h-full w-[100%] sm:w-[80%] flex flex-col justify-center items-center sm:items-start">
 					<BoxReveal boxColor={"var(--accent-color)"} duration={0.5}>
-						<p className="text-[3.5rem] font-semibold">
+						<p className="text-[2rem] sm:text-[3.5rem] font-semibold text-center sm:text-left">
 							{t('Title')}<span className="text-[var(--accent-color)]">.</span>
 						</p>
 					</BoxReveal>
 
 					<BoxReveal boxColor={"var(--accent-color)"} duration={0.5}>
-						<h2 className="mt-[.5rem] text-[1rem]">
+						<h2 className="mt-[.5rem] text-[1rem] text-center sm:text-left">
 							{t('Subtitle')}{" "}
 							<span className="text-[var(--accent-color)] font-bold">{t('SubtitleColorVariant')}</span>.
 						</h2>
 					</BoxReveal>
 
 					<BoxReveal boxColor={"var(--accent-color)"} duration={0.5}>
-						<div className="mt-[1.5rem]">
-							<span className="flex flex-row gap-4">
-								<ArrowLongRightIcon className="h-[1.5rem] w-[1.5rem] inline-block" />
+						<div className="mt-[1.5rem] text-center sm:text-left">
+							<span className="gap-4 hidden sm:flex sm:flex-row">
+								<ArrowLongRightIcon className="h-[1.5rem] w-[1.5rem] hidden sm:inline-block" />
 								<span>
 									{t('Feature1')}
 									<span className="text-[var(--accent-color)] font-bold"> {t('Feature1ColorVariant')}</span>.
 								</span>
 							</span>
-							<span className="flex flex-row gap-4">
-								<ArrowLongRightIcon className="h-[1.5rem] w-[1.5rem] inline-block" />
+							<span className="flex flex-row gap-4 text-[.9rem] sm:text-[1rem]">
+								<ArrowLongRightIcon className="h-[1.5rem] w-[1.5rem] hidden sm:inline-block" />
 								<span>
 									{t('Feature2')}
 									<span className="text-[var(--accent-color)] font-bold"> {t('Feature2ColorVariant')}</span>.
 								</span>
 							</span>
-							<span className="flex flex-row gap-4">
-								<ArrowLongRightIcon className="h-[1.5rem] w-[1.5rem] inline-block" />
+							<span className="flex flex-row gap-4 text-[.9rem] sm:text-[1rem]">
+								<ArrowLongRightIcon className="h-[1.5rem] w-[1.5rem] hidden sm:inline-block" />
 								<span>
 									{t('Feature3')}
 									<span className="text-[var(--accent-color)] font-bold"> {t('Feature3ColorVariant')}</span>.
@@ -109,13 +109,13 @@ export default function Projects() {
 					</BoxReveal>
 
 					<BoxReveal boxColor={"var(--accent-color)"} duration={0.5}>
-						<Button variant="outline" className="mt-[1.6rem] bg-[var(--accent-color)] rounded-[8px] text-white gap-2">
+						<Button variant="outline" className="mt-[0.5rem] sm:mt-[1.6rem] bg-[var(--accent-color)] rounded-[8px] text-white gap-2">
 							{t('Premium')}
 						</Button>
 					</BoxReveal>
 				</div>
 
-				<div className="h-full w-[20%] items-center justify-center">
+				<div className="h-full w-[20%] items-center justify-center hidden md:block">
 					<Image 
 						src="/svg/notnot.svg" 
 						alt="NotJira Logo" 
@@ -127,20 +127,20 @@ export default function Projects() {
 				</div>
 			</section> { /* End of projectInnerTopContainer */}
 
-			<section className={styles.projectInnerBottomContainer}>
-				<div className="w-[20%] h-full flex flex-row">
-					<span className='flex flex-col gap-4 justify-center items-center'>
+			<section className={`${styles.projectInnerBottomContainer} flex-col sm:flex-row-reverse gap-4 sm:gap-0`}>
+				<div className="w-[20%] h-full flex flex-col sm:flex-row">
+					<span className='flex flex-col gap-4 justify-center items-center mt-4'>
 						<span>
-							<h3 className='text-[1.2rem] font-medium flex items-center justify-center'>{t('OnProjects')}</h3>
+							<h3 className='text-[1.2rem] font-medium flex items-center justify-center w-[50vw] sm:w-auto'>{t('OnProjects')}</h3>
 							<NumberTicker
-								className='text-[3.5rem] font-semibold flex items-center justify-center text'
+								className='text-[2.5rem] sm:text-[3.5rem] font-semibold flex items-center justify-center text'
 								value={onDoingProjects}>
 							</NumberTicker>
 						</span>
 						<span>
-							<h3 className='text-[1.2rem] font-medium flex items-center justify-center'>{t('EndProjects')}</h3>
+							<h3 className='text-[1.2rem] font-medium flex items-center justify-center w-[50vw] sm:w-auto'>{t('EndProjects')}</h3>
 							<NumberTicker
-								className='text-[3.5rem] font-semibold flex items-center justify-center text'
+								className='text-[2.5rem] sm:text-[3.5rem] font-semibold flex items-center justify-center text'
 								value={completedProjects}>
 							</NumberTicker>
 						</span>
