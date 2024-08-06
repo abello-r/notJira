@@ -79,11 +79,11 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 			<Toaster position={position} />
 
 			<Box sx={{ width: '100%' }}>
-				<Box sx={{ borderBottom: 1, borderColor: 'var(--border-color)', color: 'var(--text-color)' }}>
+				<Box sx={{ borderBottom: 1, borderColor: 'var(--border-color)', color: 'var(--text-color)'}}>
 					<Tabs value={value} onChange={handleChange} aria-label="basic tabs example" centered>
-						<Tab label={translations.Tab1} {...a11yProps(0)} className='text' />
-						<Tab label={translations.Tab2} {...a11yProps(1)} className='text' />
-						<Tab label={translations.Tab3} {...a11yProps(2)} className='text' />
+						<Tab label={translations.Tab1} {...a11yProps(0)} className='text text-[10px] sm:text-sm' />
+						<Tab label={translations.Tab2} {...a11yProps(1)} className='text text-[10px] sm:text-sm' />
+						<Tab label={translations.Tab3} {...a11yProps(2)} className='text text-[10px] sm:text-sm' />
 					</Tabs>
 				</Box>
 
@@ -102,7 +102,7 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 							<p className='text-lg text flex flex-col justify-normal items-left w-[95%]'>
 								{translations.InstallationContent}
 								<code
-									className='text-lg text homeBox w-[50%] mt-4 rounded-[8px]'
+									className='text-sm sm:text-lg text homeBox w-[100%] sm:w-[50%] mt-4 rounded-[8px]'
 									onClick={() => handleCopy('git clone https://github.com/abello-r/notJira')}
 								>
 									git clone https://github.com/abello-r/notJira
@@ -115,7 +115,7 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 							<p className='text-lg text flex flex-col justify-normal items-left w-[95%]'>
 								{translations.DependenciesContent}
 								<code
-									className='text-lg text homeBox w-[15%] mt-4 rounded-[8px]'
+									className='text-sm sm:text-lg text homeBox w-[100%] sm:w-[15%] mt-4 rounded-[8px]'
 									onClick={() => handleCopy('npm install')}
 								>
 									npm install
@@ -142,7 +142,7 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 							<p className='text-lg text flex flex-col justify-normal items-left w-[95%]'>
 								{translations.BulkContent}
 								<code
-									className='text-lg text homeBox w-[15%] mt-4 rounded-[8px]'
+									className='text-sm sm:text-lg text homeBox w-[100%] sm:w-[15%] mt-4 rounded-[8px]'
 									onClick={() => handleCopy('npm run bulk')}
 								>
 									npm run bulk
@@ -155,7 +155,7 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 							<p className='text-lg text flex flex-col justify-normal items-left w-[95%]'>
 								{translations.RunContent}
 								<code
-									className='text-lg text homeBox w-[15%] mt-4 rounded-[8px]'
+									className='text-sm sm:text-lg text homeBox w-[100%] sm:w-[15%] mt-4 rounded-[8px]'
 									onClick={() => handleCopy('npm run dev')}
 								>
 									npm run dev
@@ -168,9 +168,9 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 							<p className='text-lg text flex flex-col justify-normal items-left w-[95%]'>
 								{translations.SupportContent}
 							</p>
-							<span className='flex flex-row gap-2'>
+							<span className='flex flex-row gap-4'>
 
-								<a href='https://github.com/abello-r' target='_blank' rel='noopener noreferrer' className='w-[20%]'>
+								<a href='https://github.com/abello-r' target='_blank' rel='noopener noreferrer' className='w-[50%] sm:w-[15%]'>
 									<button className='homeBox rounded-[8px]'>
 										<span className='flex flex-row gap-2'>
 											{translations.GithubButton}
@@ -179,7 +179,7 @@ export default function ReadmeByTabs({ translations }: ReadmeByTabsProps) {
 									</button>
 								</a>
 
-								<a href='https://profile-guard.netlify.app/' target='_blank' rel='noopener noreferrer' className='w-[25%]'>
+								<a href='https://profile-guard.netlify.app/' target='_blank' rel='noopener noreferrer' className='w-[50%] sm:w-[16%]'>
 									<button className='homeBox rounded-[8px]'>
 										<span className='flex flex-row gap-2'>
 											{translations.WebButton}

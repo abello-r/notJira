@@ -2,7 +2,7 @@ import { File, Folder, Tree } from "@/components/magicui/file-tree";
 
 export function ArchFileTree() {
 	return (
-		<div className="relative flex h-[300px] w-1/2 flex-col items-center justify-center overflow-hidden border bg-background md:shadow-xl rounded-[8px]">
+		<div className="relative flex h-[300px] w-full md:w-1/2 flex-col items-center justify-center overflow-hidden border bg-background md:shadow-xl rounded-[8px]">
 			<Tree
 				className="p-2 overflow-hidden rounded-md bg-background"
 				initialSelectedId="7"

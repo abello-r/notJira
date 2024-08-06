@@ -50,7 +50,7 @@ export default function TopBar({ translations }: topBarProps) {
 					) : session ? (
 						<span className="flex items-center justify-between gap-4">
 							<p className="text font-semibold">{translations?.Greetings} {session.user?.name}</p>
-							<button className="flex items-center justify-center h-10 w-10 bg-[#e1e4e8] rounded-full">
+							<button className="items-center justify-center h-10 w-10 bg-[#e1e4e8] rounded-full hidden sm:flex">
 								{session.user?.image ? (
 									<img
 										src={session.user.image}
