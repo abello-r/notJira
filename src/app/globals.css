@@ -112,17 +112,6 @@ svg {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: flex-start;
-	padding: 1rem;
-	background-color: var(--bg-color);
-	color: var(--text-color);
-	border: 1px solid var(--border-color);
-}
-
-.lightBox {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	text-align: center;
 	padding: 1rem;

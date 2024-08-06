@@ -14,11 +14,9 @@ const ThemeSwitcher: React.FC<ThemeSwitcherProps> = ({ translations }) => {
 	const [clientTheme, setClientTheme] = useState<string | null>(null);
 
 	useEffect(() => {
-		// Set the client theme after the component mounts
 		setClientTheme(theme);
 	}, [theme]);
 
-	// Show a loading state or a fallback until the client theme is set
 	if (clientTheme === null) {
 		return <div>Loading...</div>;
 	}
@@ -27,8 +25,8 @@ const ThemeSwitcher: React.FC<ThemeSwitcherProps> = ({ translations }) => {
 
 	return (
 		<div className="p-4 w-full h-full flex flex-col space-y-4 justify-center items-center">
-			<div className="flex space-x-4 w-full h-full flex-row justify-center items-center gap-4">
-				<div className="w-1/4 h-[30%] relative">
+			<div className="flex sm:space-x-4 w-full h-full flex-col sm:flex-row justify-center items-center gap-4">
+				<div className="w-full sm:w-1/4 h-[30%] sm:h-[30%] relative">
 					<button
 						className={`w-full h-full rounded-xl shadow-md transition-colors font-medium text-lg flex items-center justify-center ${isLightOrAbyss ? 'lightBox' : 'darkBox'
 							} hover:bg-black/[.03] hover:dark:bg-neutral-800/10`}
@@ -46,7 +44,7 @@ const ThemeSwitcher: React.FC<ThemeSwitcherProps> = ({ translations }) => {
 					</button>
 				</div>
 
-				<div className="w-1/4 h-[50%] relative">
+				<div className="w-full sm:w-1/4 h-[30%] sm:h-[50%] relative">
 					<button
 						className={`w-full h-full rounded-xl shadow-md transition-colors font-medium text-lg flex items-center justify-center ${isLightOrAbyss ? 'lightBox' : 'darkBox'
 							} hover:bg-black/[.03] hover:dark:bg-neutral-800/10`}
@@ -64,7 +62,7 @@ const ThemeSwitcher: React.FC<ThemeSwitcherProps> = ({ translations }) => {
 					</button>
 				</div>
 
-				<div className="w-1/4 h-[70%] relative">
+				<div className="w-full sm:w-1/4 h-[30%] sm:h-[70%] relative">
 					<button
 						className={`w-full h-full rounded-xl shadow-md transition-colors font-medium text-lg flex items-center justify-center ${isLightOrAbyss ? 'lightBox' : 'darkBox'
 							} hover:bg-black/[.03] hover:dark:bg-neutral-800/10`}

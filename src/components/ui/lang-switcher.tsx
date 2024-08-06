@@ -43,9 +43,9 @@ const LanguageSwitcher = ({ translations }: LangSwitcherProps) => {
 
 	return (
 		<div className="p-4 w-full h-[80%] flex flex-col space-y-4 justify-center items-center">
-			<div className="flex space-x-4 w-full h-full flex-row justify-center items-center gap-4 flex-wrap">
+			<div className="flex sm:space-x-4 w-full h-full flex-row justify-center items-center gap-4 flex-wrap">
 				{languages.map((lang) => (
-					<div key={lang} className="w-1/4 h-[25%] relative">
+					<div key={lang} className="w-1/3 sm:w-1/4 h-[25%] relative">
 						<button
 							className={`w-full h-full rounded-xl shadow-md flex items-center justify-center p-4 lightBox hover:bg-black/[.03] hover:dark:bg-neutral-800/10`}
 							onClick={() => handleLanguageChange(lang)}
