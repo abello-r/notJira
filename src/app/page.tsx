@@ -17,15 +17,15 @@ export default function Home() {
 				<div className="w-[80%] flex flex-col items-center justify-center">
 					<GradualSpacing
 						className="pt-4 text-[#004bbf] hidden sm:block"
-						text="¡Gestiona tus proyectos de forma eficiente, usa NotJira!"
+						text="Manage your projects efficiently, use NotJira!"
 					/>
-					<h1 className="pt-16 text-7xl font-extrabold mr-4 text-center">Excelentes resultados</h1>
-					<p className="text-xl pt-10 font-medium text-center">La única herramienta de gestión de proyectos que necesitas para planificar y monitorizar el trabajo de todos los equipos.</p>
+					<h1 className="pt-16 text-7xl font-extrabold mr-4 text-center">Excellent Results</h1>
+					<p className="text-xl pt-10 font-medium text-center">The only project management tool you need to plan and monitor the work of all teams.</p>
 					<button
 						className="mt-10 bg-[#0052cc] text-white font-semibold py-2 px-4 rounded-[6px] hover:bg-[#004bbf]"
 						onClick={() => signIn('github', { callbackUrl: '/dashboard' })}
 					>
-						Comienza ahora
+						Start now
 					</button>
 				</div>
 
@@ -33,8 +33,8 @@ export default function Home() {
 
 					<div className="w-[80%] sm:w-[20%] h-[80%] homeBox rounded-[6px]" id="leftHomeBox"> { /* Software Box */ }
 						<span className="w-full flex flex-col items-start justify-start">
-							<h2 className="pb-4 text font-bold">Desarrollo de software</h2>
-							<p className="text-neutral-600 font-light items-start justify-start text-left">Seguimiento de productos e incidencias.</p>
+							<h2 className="pb-4 text font-bold">Software Development</h2>
+							<p className="text-neutral-600 font-light items-start justify-start text-left">Product and issue tracking.</p>
 							<img
 								src="/png/software.png" 
 								alt="Development"
@@ -46,7 +46,7 @@ export default function Home() {
 					<div className="w-[80%] sm:w-[20%] h-[80%] homeBox rounded-[6px]" id="midLeftHomeBox"> { /* Marketing Box */ }
 						<span className="w-full flex flex-col items-start justify-start">
 							<h2 className="pb-4 text font-bold">Marketing</h2>
-							<p className="text-neutral-600 font-light items-start justify-start text-left">Planificar y lanzar campañas.</p>
+							<p className="text-neutral-600 font-light items-start justify-start text-left">Plan and launch campaigns.</p>
 							<img
 								src="/png/marketing.png" 
 								alt="Marketing" 
@@ -57,8 +57,8 @@ export default function Home() {
 
 					<div className="w-[80%] sm:w-[20%] h-[80%] homeBox rounded-[6px]" id="midRightHomeBox"> { /* Design Box */ }
 						<span className="w-full flex flex-col items-start justify-start">
-							<h2 className="pb-4 text font-bold">Diseño</h2>
-							<p className="text-neutral-600 font-light items-start justify-start text-left">Crear flujos de trabajos creativos.</p>
+							<h2 className="pb-4 text font-bold">Design</h2>
+							<p className="text-neutral-600 font-light items-start justify-start text-left">Create creative workflows.</p>
 							<img
 								src="/png/design.png"
 								alt="Design"
@@ -69,8 +69,8 @@ export default function Home() {
 
 					<div className="w-[80%] sm:w-[20%] h-[80%] homeBox rounded-[6px]" id="rightHomeBox"> { /* Operations Box */ }
 						<span className="w-full flex flex-col items-start justify-start">
-							<h2 className="pb-4 text font-bold">Operaciones</h2>
-							<p className="text-neutral-600 font-light items-start justify-start text-left">Crear procesos personalizados.</p>
+							<h2 className="pb-4 text font-bold">Operations</h2>
+							<p className="text-neutral-600 font-light items-start justify-start text-left">Create custom processes.</p>
 							<img
 								src="/png/operations.png" 
 								alt="Operations" 
