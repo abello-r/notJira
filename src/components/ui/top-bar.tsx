@@ -67,7 +67,7 @@ export default function TopBar({ translations }: topBarProps) {
 							className="flex items-center justify-center h-10 w-30 text-[#0052cc] font-semibold hover:bg-[#f1f1f1] rounded-[6px] p-4"
 							onClick={() => signIn('github', { callbackUrl: '/dashboard' })}
 						>
-							Iniciar sesión
+							Log In
 						</button>
 					)}
 				</section>
